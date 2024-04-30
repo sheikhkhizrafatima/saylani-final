@@ -1,0 +1,78 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg, #F7F0AC 0%, #ACF7F0 50%, #F0ACF7 100%);
+}
+/* ---------NAVBAR----------- */
+.nav{
+    margin-top: 1rem;
+    font-size: 15px;
+}
+.nav #logo{
+    width: 30rem;
+    padding-left: 5rem;
+}
+.nav #logo a{
+text-decoration: none;
+}
+.nav .item ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+.nav .item ul a{
+    text-decoration: none;
+    color: black;
+}
+.nav .item ul a:hover{
+    text-decoration: underline black;
+    transition: 0.3s ease;
+}
+
+.nav .bar{
+    padding-left: 3rem;
+}
+.nav .bar a{
+    text-decoration: none;
+    font-size: 12px;
+   
+}
+.nav .bar button{
+    border: none;
+    border-color:aqua;
+background: #FFFFFF;
+border-radius: 10px;
+
+}
+
+.page{
+    display: flex;
+    margin-top: 6rem;
+}
+.page .text{
+    margin-left: 5rem;
+}
+.page .text h1{
+background: linear-gradient(56.27deg, #5433FF 15.21%, #20BDFF 55.7%, #A5FECB 96.18%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+.page .text p{
+    padding-top: 2rem;
+}
+.page .text button{
+    margin-top: 2rem;
+   margin-left: 2rem;
+}
+
+.page .image{
+    margin-left: 5rem;
+    margin-top: 1rem;
+
+}
